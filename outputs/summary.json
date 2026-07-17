@@ -1,0 +1,58 @@
+{
+  "paper": "A8AxU1GUUl",
+  "arxiv": "2604.05324",
+  "claim1_bounded_ipm_weak_evaluability": {
+    "finite_support": 3,
+    "test_class": "all binary tests / total variation",
+    "configurations": 12,
+    "max_exact_failure_probability": 0.014035061738253054,
+    "weak_factor": 3,
+    "additive_epsilon": 0.08
+  },
+  "claim2_finite_fat_strong_evaluability": {
+    "function_count": 8,
+    "rows": [
+      {
+        "n": 80,
+        "epsilon": 0.25,
+        "population_ipm": 0.37,
+        "exact_tail_probability": 2.0259189896603783e-06,
+        "finite_class_hoeffding_bound": 0.0007263988761997577,
+        "function_count": 8
+      },
+      {
+        "n": 160,
+        "epsilon": 0.18,
+        "population_ipm": 0.37,
+        "exact_tail_probability": 2.52983916173555e-06,
+        "finite_class_hoeffding_bound": 0.000502753142977238,
+        "function_count": 8
+      },
+      {
+        "n": 320,
+        "epsilon": 0.13,
+        "population_ipm": 0.37,
+        "exact_tail_probability": 1.7592679210716366e-06,
+        "finite_class_hoeffding_bound": 0.0003212113379599243,
+        "function_count": 8
+      },
+      {
+        "n": 500,
+        "epsilon": 0.1,
+        "population_ipm": 0.37,
+        "exact_tail_probability": 5.472140089191811e-06,
+        "finite_class_hoeffding_bound": 0.0007263988761997577,
+        "function_count": 8
+      }
+    ],
+    "max_exact_tail_probability": 5.472140089191811e-06
+  },
+  "claim3_rare_event_nonevaluability": {
+    "renyi_high_separation_min": 16.000000112535155,
+    "renyi_high_separation_min_no_rare": 0.9988752811602233,
+    "renyi_high_separation_min_misrank_lower_bound": 0.49943764058011164,
+    "kl_min": 1000.0,
+    "kl_min_no_rare": 0.9900448802097482,
+    "min_misrank_lower_bound": 0.0
+  }
+}

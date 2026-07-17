@@ -1,0 +1,9 @@
+{
+  "support_size": 3,
+  "claim1_sample_size": 80,
+  "claim1_epsilon": 0.08,
+  "claim1_configurations": 12,
+  "claim2_schedule": [[80, 0.25], [160, 0.18], [320, 0.13], [500, 0.1]],
+  "renyi_alpha": 2.0,
+  "rare_event_sample_sizes": [10, 100, 1000, 10000]
+}
