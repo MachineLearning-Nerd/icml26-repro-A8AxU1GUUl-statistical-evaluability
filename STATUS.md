@@ -1,7 +1,7 @@
 # Status
 
 - Paper: `A8AxU1GUUl` — *A Theoretical Framework for Statistical Evaluability of Generative Models*
-- Stage: REPUBLISHED 2026-07-19 at Space SHA 5f30383f with scaled C1/C2 certificates; awaiting re-judge (prior 4/6: C1+C2 toy)
+- Stage: REPUBLISHED 2026-07-19 at Space SHA 5f30383f with scaled C1/C2 certificates; OFFICIAL PERFECT SCORE 6/6. CAMPAIGN COMPLETE for this paper.
 - Official source: no implementation located; clean-room direct evaluation of the paper's finite-support constructions
 - Claims: 3/3 verified within their explicit finite-certificate scopes
 - Evidence: 12 exact Yatracos/Scheffe multinomial enumerations; four exact finite-fat IPM tail calculations plus independent concentration bounds; exact three-point KL/Renyi rare-event witnesses and no-rare-event lower bounds; 10 tests
