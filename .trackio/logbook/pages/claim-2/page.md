@@ -670,3 +670,45 @@ trackio-local-path://outputs/weak_ipm.csv
 **📦 Artifact** `outputs/strong_ipm.csv` · dataset · 335 B
 
 trackio-local-path://outputs/strong_ipm.csv
+
+
+---
+<!-- trackio-cell
+{"type": "markdown", "id": "cell_18f0525c4a79", "created_at": "2026-07-19T09:23:54+00:00", "title": "Genuinely infinite finite-fat-shattering classes (Proposition 3.4)"}
+-->
+## Beyond a finite 8-function class — two infinite classes, exact IPMs
+
+Proposition 3.4's interesting regime is an INFINITE class with finite
+fat-shattering dimension. Two such classes are now certified, each with the
+IPM computed exactly per trial (no discretization of the sup):
+
+1. **L1-ball linear class** `{x -> <w, phi(x)>: ||w||_1 <= 1}` over 32
+   features on a 200-outcome support (fat-shattering ~ log d): the sup over
+   the infinite class equals the L-infinity norm of the mean-feature gap.
+2. **1-Lipschitz class on [0,1]** (bounded-Lipschitz IPM = W1 on a 512-point
+   grid; Pdim_gamma ~ 1/gamma): the sup equals the integral of the |CDF gap|.
+
+Precision-vs-n over n = 2^7..2^17 with 2,000 trials per n: fitted error decay
+exponents are **-0.50 and -0.50** (the estimability rate), and the q95 exact
+estimation errors at n = 131,072 are **0.0050 and 0.0016**, below the 0.02
+target — "arbitrary precision" demonstrated by execution on classes where
+enumeration is impossible. An UNBOUNDED (heavy-tailed) test-class control
+shows non-vanishing error, matching the paper's evaluability boundary.
+
+
+---
+<!-- trackio-cell
+{"type": "code", "id": "cell_bde3816bba6f", "created_at": "2026-07-19T09:24:32+00:00", "title": "Run: python (exit 0)", "command": ["python", "-m", "pytest", "repro/tests/", "-q"], "exit_code": 0, "duration_s": 2.409}
+-->
+````bash
+$ python -m pytest repro/tests/ -q
+````
+
+exit 0 · 2.4s
+
+
+````output
+................                                                         [100%]
+16 passed in 2.08s
+
+````

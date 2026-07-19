@@ -1,0 +1,37 @@
+[C1] S=50 M=20 realizable=True opt=0.0000 n=1788 fails=0/20000
+[C1] S=50 M=20 realizable=False opt=0.1386 n=1788 fails=0/20000
+[C1] S=50 M=40 realizable=True opt=0.0000 n=2070 fails=0/20000
+[C1] S=50 M=40 realizable=False opt=0.1543 n=2070 fails=0/20000
+[C1] S=100 M=20 realizable=True opt=0.0000 n=1788 fails=0/20000
+[C1] S=100 M=20 realizable=False opt=0.1474 n=1788 fails=0/20000
+[C1] S=100 M=40 realizable=True opt=0.0000 n=2070 fails=0/20000
+[C1] S=100 M=40 realizable=False opt=0.1402 n=2070 fails=0/20000
+[C1] S=200 M=20 realizable=True opt=0.0000 n=1788 fails=0/20000
+[C1] S=200 M=20 realizable=False opt=0.1539 n=1788 fails=0/20000
+[C1] S=200 M=40 realizable=True opt=0.0000 n=2070 fails=0/20000
+[C1] S=200 M=40 realizable=False opt=0.1626 n=2070 fails=0/20000
+[C2 linear] n=128 mean_err=0.11844
+[C2 linear] n=256 mean_err=0.08416
+[C2 linear] n=512 mean_err=0.05915
+[C2 linear] n=1024 mean_err=0.04181
+[C2 linear] n=2048 mean_err=0.02942
+[C2 linear] n=4096 mean_err=0.02086
+[C2 linear] n=8192 mean_err=0.01469
+[C2 linear] n=16384 mean_err=0.01046
+[C2 linear] n=32768 mean_err=0.00739
+[C2 linear] n=65536 mean_err=0.00517
+[C2 linear] n=131072 mean_err=0.00369
+[C2 lipschitz] n=128 mean_err=0.027517
+[C2 lipschitz] n=256 mean_err=0.019407
+[C2 lipschitz] n=512 mean_err=0.013742
+[C2 lipschitz] n=1024 mean_err=0.009696
+[C2 lipschitz] n=2048 mean_err=0.006915
+[C2 lipschitz] n=4096 mean_err=0.004897
+[C2 lipschitz] n=8192 mean_err=0.003480
+[C2 lipschitz] n=16384 mean_err=0.002444
+[C2 lipschitz] n=32768 mean_err=0.001692
+[C2 lipschitz] n=65536 mean_err=0.001217
+[C2 lipschitz] n=131072 mean_err=0.000859
+{"all_certified": true, "negative_control": {"corrupted_statistic_failures": 2000, "trials": 2000, "control_rejects": true}}
+{"target_eps": 0.02, "linear_final_q95": 0.004997917018694787, "lipschitz_final_q95": 0.0015991263686093487, "both_below_target": true}
+elapsed 31.2 s; wrote scale_evaluability.json

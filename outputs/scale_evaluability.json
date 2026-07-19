@@ -1,0 +1,349 @@
+{
+  "paper": "A8AxU1GUUl",
+  "arxiv": "2604.05324",
+  "claim1": {
+    "mechanism": "Scheffe/Yatracos tournament (Theorem 3.2 3-approx arm), exact selected-model TV per trial",
+    "epsilon": 0.05,
+    "delta": 0.05,
+    "configurations": [
+      {
+        "support": 50,
+        "n_models": 20,
+        "realizable": true,
+        "opt_tv": 0.0,
+        "n_samples": 1788,
+        "trials": 20000,
+        "guarantee_bound": 0.05,
+        "max_achieved_tv": 0.0,
+        "mean_achieved_tv": 0.0,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 50,
+        "n_models": 20,
+        "realizable": false,
+        "opt_tv": 0.1386469346267804,
+        "n_samples": 1788,
+        "trials": 20000,
+        "guarantee_bound": 0.4659408038803412,
+        "max_achieved_tv": 0.1386469346267804,
+        "mean_achieved_tv": 0.13864693462678043,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 50,
+        "n_models": 40,
+        "realizable": true,
+        "opt_tv": 0.0,
+        "n_samples": 2070,
+        "trials": 20000,
+        "guarantee_bound": 0.05,
+        "max_achieved_tv": 0.0,
+        "mean_achieved_tv": 0.0,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 50,
+        "n_models": 40,
+        "realizable": false,
+        "opt_tv": 0.1543191912295984,
+        "n_samples": 2070,
+        "trials": 20000,
+        "guarantee_bound": 0.5129575736887952,
+        "max_achieved_tv": 0.1543191912295984,
+        "mean_achieved_tv": 0.1543191912295984,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 100,
+        "n_models": 20,
+        "realizable": true,
+        "opt_tv": 0.0,
+        "n_samples": 1788,
+        "trials": 20000,
+        "guarantee_bound": 0.05,
+        "max_achieved_tv": 0.0,
+        "mean_achieved_tv": 0.0,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 100,
+        "n_models": 20,
+        "realizable": false,
+        "opt_tv": 0.14736150119409175,
+        "n_samples": 1788,
+        "trials": 20000,
+        "guarantee_bound": 0.49208450358227523,
+        "max_achieved_tv": 0.14736150119409175,
+        "mean_achieved_tv": 0.14736150119409172,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 100,
+        "n_models": 40,
+        "realizable": true,
+        "opt_tv": 0.0,
+        "n_samples": 2070,
+        "trials": 20000,
+        "guarantee_bound": 0.05,
+        "max_achieved_tv": 0.0,
+        "mean_achieved_tv": 0.0,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 100,
+        "n_models": 40,
+        "realizable": false,
+        "opt_tv": 0.14020675451517908,
+        "n_samples": 2070,
+        "trials": 20000,
+        "guarantee_bound": 0.47062026354553727,
+        "max_achieved_tv": 0.14020675451517908,
+        "mean_achieved_tv": 0.14020675451517906,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 200,
+        "n_models": 20,
+        "realizable": true,
+        "opt_tv": 0.0,
+        "n_samples": 1788,
+        "trials": 20000,
+        "guarantee_bound": 0.05,
+        "max_achieved_tv": 0.0,
+        "mean_achieved_tv": 0.0,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 200,
+        "n_models": 20,
+        "realizable": false,
+        "opt_tv": 0.15386985568827893,
+        "n_samples": 1788,
+        "trials": 20000,
+        "guarantee_bound": 0.5116095670648368,
+        "max_achieved_tv": 0.15386985568827893,
+        "mean_achieved_tv": 0.15386985568827896,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 200,
+        "n_models": 40,
+        "realizable": true,
+        "opt_tv": 0.0,
+        "n_samples": 2070,
+        "trials": 20000,
+        "guarantee_bound": 0.05,
+        "max_achieved_tv": 0.0,
+        "mean_achieved_tv": 0.0,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      },
+      {
+        "support": 200,
+        "n_models": 40,
+        "realizable": false,
+        "opt_tv": 0.16260120419510635,
+        "n_samples": 2070,
+        "trials": 20000,
+        "guarantee_bound": 0.5378036125853191,
+        "max_achieved_tv": 0.16260120419510635,
+        "mean_achieved_tv": 0.16260120419510635,
+        "failures": 0,
+        "failure_rate_cp_upper": 0.00014977539622296283
+      }
+    ],
+    "total_trials": 240000,
+    "all_certified": true,
+    "negative_control": {
+      "corrupted_statistic_failures": 2000,
+      "trials": 2000,
+      "control_rejects": true
+    }
+  },
+  "claim2": {
+    "mechanism": "exact IPM computation on two genuinely infinite finite-fat-shattering classes (Proposition 3.4)",
+    "linear_l1": {
+      "class": "L1-ball linear, d=32 (infinite; Pdim ~ log d)",
+      "support": 200,
+      "trials_per_n": 2000,
+      "rows": [
+        {
+          "n": 128,
+          "mean_error": 0.11843861909557638,
+          "q95_error": 0.16114927098463547,
+          "max_error": 0.23520290530469648
+        },
+        {
+          "n": 256,
+          "mean_error": 0.08416312061097077,
+          "q95_error": 0.1144397539076095,
+          "max_error": 0.15298186303795613
+        },
+        {
+          "n": 512,
+          "mean_error": 0.059149319607459235,
+          "q95_error": 0.08018317595834651,
+          "max_error": 0.11199166111933749
+        },
+        {
+          "n": 1024,
+          "mean_error": 0.041805353000907174,
+          "q95_error": 0.057887932240095384,
+          "max_error": 0.08288288507318772
+        },
+        {
+          "n": 2048,
+          "mean_error": 0.02941772150080525,
+          "q95_error": 0.03961629327904663,
+          "max_error": 0.05390141751621355
+        },
+        {
+          "n": 4096,
+          "mean_error": 0.020857526076773717,
+          "q95_error": 0.02838184845809441,
+          "max_error": 0.043025658039883015
+        },
+        {
+          "n": 8192,
+          "mean_error": 0.01469411737524498,
+          "q95_error": 0.020241783124881774,
+          "max_error": 0.02711243467149692
+        },
+        {
+          "n": 16384,
+          "mean_error": 0.010457552304186006,
+          "q95_error": 0.014237164965879453,
+          "max_error": 0.019966432922566092
+        },
+        {
+          "n": 32768,
+          "mean_error": 0.0073894153458345805,
+          "q95_error": 0.010231726307352453,
+          "max_error": 0.013434464192162363
+        },
+        {
+          "n": 65536,
+          "mean_error": 0.005166887219603005,
+          "q95_error": 0.007020054783316696,
+          "max_error": 0.00864712144063734
+        },
+        {
+          "n": 131072,
+          "mean_error": 0.0036916719126857266,
+          "q95_error": 0.004997917018694787,
+          "max_error": 0.006967186145324197
+        }
+      ],
+      "rate_exponent": -0.5011282799325318
+    },
+    "lipschitz_w1": {
+      "class": "1-Lipschitz on [0,1] (infinite; Pdim_gamma ~ 1/gamma)",
+      "grid": 512,
+      "trials_per_n": 2000,
+      "rows": [
+        {
+          "n": 128,
+          "mean_error": 0.02751672090272216,
+          "q95_error": 0.05118492950663614,
+          "max_error": 0.09784278631287763
+        },
+        {
+          "n": 256,
+          "mean_error": 0.01940720561770418,
+          "q95_error": 0.035711741998879075,
+          "max_error": 0.055093247828671865
+        },
+        {
+          "n": 512,
+          "mean_error": 0.013742206000980164,
+          "q95_error": 0.02553819072793065,
+          "max_error": 0.04126497024078125
+        },
+        {
+          "n": 1024,
+          "mean_error": 0.009696168054282478,
+          "q95_error": 0.017931660636304286,
+          "max_error": 0.03339880432070368
+        },
+        {
+          "n": 2048,
+          "mean_error": 0.006914821740380999,
+          "q95_error": 0.012957525289916871,
+          "max_error": 0.025995842043592392
+        },
+        {
+          "n": 4096,
+          "mean_error": 0.004897223269144405,
+          "q95_error": 0.008841283246598016,
+          "max_error": 0.014800115415759308
+        },
+        {
+          "n": 8192,
+          "mean_error": 0.00348043799216973,
+          "q95_error": 0.006674165621917934,
+          "max_error": 0.012550434224267054
+        },
+        {
+          "n": 16384,
+          "mean_error": 0.002444252900116921,
+          "q95_error": 0.004462237271394923,
+          "max_error": 0.007307026387035335
+        },
+        {
+          "n": 32768,
+          "mean_error": 0.001691665847435819,
+          "q95_error": 0.003174616343023599,
+          "max_error": 0.005547539072752585
+        },
+        {
+          "n": 65536,
+          "mean_error": 0.001217273092309498,
+          "q95_error": 0.002174868461519288,
+          "max_error": 0.0036822295196647288
+        },
+        {
+          "n": 131072,
+          "mean_error": 0.000858791137839405,
+          "q95_error": 0.0015991263686093487,
+          "max_error": 0.0030962151841770523
+        }
+      ],
+      "rate_exponent": -0.5001955860459263
+    },
+    "arbitrary_precision": {
+      "target_eps": 0.02,
+      "linear_final_q95": 0.004997917018694787,
+      "lipschitz_final_q95": 0.0015991263686093487,
+      "both_below_target": true
+    },
+    "unbounded_negative_control": {
+      "rows": [
+        {
+          "n": 1024,
+          "mean_abs_error": 17.11400561043478
+        },
+        {
+          "n": 16384,
+          "mean_abs_error": 4.624387482526628
+        },
+        {
+          "n": 131072,
+          "mean_abs_error": 1.454342046600813
+        }
+      ],
+      "error_not_vanishing": true
+    }
+  },
+  "elapsed_s": 25.1
+}
