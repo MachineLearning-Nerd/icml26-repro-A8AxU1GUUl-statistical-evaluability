@@ -12,7 +12,7 @@
     "icml2026-repro",
     "paper-A8AxU1GUUl"
   ],
-  "updated_at": "2026-07-22T17:00:00+00:00",
+  "updated_at": "2026-07-22T18:03:18+00:00",
   "root": {
     "slug": "index",
     "title": "Repro - A Theoretical Framework for Statistical Evaluability of Generative Models",
@@ -77,9 +77,15 @@
         "title": "No finite or countable taxonomy — exact diagonal proof",
         "file": "pages/claim-no-taxonomy-exact/page.md",
         "children": []
+      },
+      {
+        "slug": "claim-renyi-kl-universal",
+        "title": "Rényi and KL non-evaluability — universal proof audit",
+        "file": "pages/claim-renyi-kl-universal/page.md",
+        "children": []
       }
     ]
   },
-  "agent_view_tokens": 2930,
-  "revision": 1784620878839937619
+  "agent_view_tokens": 3650,
+  "revision": 1784752998000000000
 }
