@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "title": "Repro - A Theoretical Framework for Statistical Evaluability of Generative Models",
+  "emoji": "🎯",
+  "space_id": "DineshAI/A8AxU1GUUl",
+  "paper": {
+    "openreview_id": "A8AxU1GUUl",
+    "arxiv_id": "2604.05324",
+    "title": "A Theoretical Framework for Statistical Evaluability of Generative Models"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-A8AxU1GUUl"
+  ],
+  "updated_at": "2026-07-22T17:00:00+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - A Theoretical Framework for Statistical Evaluability of Generative Models",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "overview",
+        "title": "Overview",
+        "file": "pages/overview/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-1",
+        "title": "Claim 1",
+        "file": "pages/claim-1/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-2",
+        "title": "Claim 2",
+        "file": "pages/claim-2/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-3",
+        "title": "Claim 3",
+        "file": "pages/claim-3/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-5-perplexity",
+        "title": "Claim 5 — perplexity/TV",
+        "file": "pages/claim-5-perplexity/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-4-renyi",
+        "title": "Claim 4 — Rényi/KL",
+        "file": "pages/claim-4-renyi/page.md",
+        "children": []
+      },
+      {
+        "slug": "methods",
+        "title": "Methods",
+        "file": "pages/methods/page.md",
+        "children": []
+      },
+      {
+        "slug": "negative-controls",
+        "title": "Negative controls",
+        "file": "pages/negative-controls/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-no-taxonomy-exact",
+        "title": "No finite or countable taxonomy — exact diagonal proof",
+        "file": "pages/claim-no-taxonomy-exact/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 2930,
+  "revision": 1784620878839937619
+}
